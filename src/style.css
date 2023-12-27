@@ -3,3 +3,8 @@ body {
   background-repeat: space;
   background-size: cover;
 }
+
+h1 p {
+  text-align: center;
+  color: #c63e00;
+}
