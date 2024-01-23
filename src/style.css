@@ -6,3 +6,43 @@ h1{
 .container-fluid{
     background-color: #F1772B;
 }
+
+.grid {
+  display: grid;
+  grid-gap: 54px;
+}
+.grid-odd-columns {
+    grid-template-columns: 2fr 1fr 
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px 100px;
+}
+
+.embed {
+    width: 100%;
+ 
+   
+
+}
+
+
+@media (max-width: 960px) {
+  header {
+    padding: 35px;
+  }
+
+    .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    padding: 0;
+  }
+  .section {
+    padding: 30px;
+  }
+
+  .embed{
+    aspect-ratio: 16/9;
+}
